@@ -1,3 +1,17 @@
+# in bash
+export ADB=/path/to/your/adb
+scrcpy
+
+:: in cmd
+set ADB=C:\path\to\your\adb.exe
+scrcpy
+
+# in PowerShell
+$env:ADB = 'C:\path\to\your\adb.exe'
+scrcpy
+
+
+
 # scrcpy-wireless-tutorial
  A document and simple scripts to connect to your Android device via scrcpy wirelessly.
 
